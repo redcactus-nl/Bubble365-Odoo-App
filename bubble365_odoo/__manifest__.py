@@ -8,7 +8,7 @@
     'category': 'Tools',
     'version': '1.0',
     'installable': True,
-    'application': True,
+    'application': False,
     'depends': ['base', 'web'],
     'data': [],
     'assets': {
@@ -18,6 +18,6 @@
         'bubble365_odoo/static/src/xml/bubble365_systray.xml',
         ],
     },
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.gif'],
     'license': 'AGPL-3',
 }
