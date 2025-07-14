@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+  <t t-name="bubble365_odoo.BubbleSystray">
+    <div class="o_systray_item bubble365-systray" title="Bubble365" t-on-click="toggleIframe">
+      <img
+        src="/bubble365_odoo/static/description/icon.png"
+        class="bubble365-systray-icon"
+        alt="Bubble365 Icon"
+      />
+    </div>
+  </t>
+</templates>
